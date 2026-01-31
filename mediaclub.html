@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ - CLB Truyền thông Nguyễn Trân</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 35px 20px 50px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #1565c0;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-right: 30px;
+            margin-top: -45px;
+            border: 4px solid white;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 25px;
+            font-weight: bold;
+            padding-bottom: 6px;
+        }
+		 
+		.member {
+         display: flex;
+         align-items: center;
+         gap: 30px;
+         margin-bottom: 50px;
+        }
+
+        .member img {
+          width: 280px;
+          border-radius: 15px;
+         }
+
+        .member h3 {
+          margin-top: 0;
+          color: #1565c0;
+         }
+
+        nav a.active {
+            border-bottom: 3px solid white;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: white;
+            margin: 25px;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            color: #1565c0;
+        }
+
+        .departments {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .department {
+            background: #eef4ff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 33%;
+        }
+
+        .department h3 {
+            margin-top: 0;
+            color: #1565c0;
+        }
+
+        .highlight ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Câu lạc bộ Truyền thông Nguyễn Trân</h1>
+    <p>Nơi kết nối sáng tạo – lan tỏa giá trị học đường</p>
+</header>
+
+<nav>
+    <div class="logo">
+        <img src="https://truongxuantan2008-lab.github.io/Karik/ntsmediaclub.png" alt="Logo CLB">
+    </div>
+
+    <a href="https://truongxuantan2008-lab.github.io/Karik/mediaclub.html" class="active">Trang chủ</a>
+    <a href="https://truongxuantan2008-lab.github.io/Karik/gioithieu.html">Giới thiệu</a>
+    <a href="https://truongxuantan2008-lab.github.io/Karik/hoatdong.html">Hoạt động</a>
+    <a href="https://truongxuantan2008-lab.github.io/Karik/lienhe.html">Liên hệ</a>
+</nav>
+
+<section>
+    <h2>Giới thiệu chung</h2>
+    <p>
+        Câu lạc bộ Truyền thông Nguyễn Trân là nơi dành cho những học sinh
+        yêu thích sáng tạo, truyền thông và mong muốn đóng góp
+        vào các hoạt động chung của nhà trường.
+    </p>
+</section>
+
+<section>
+    <h2>Các ban chính</h2>
+    <div class="departments">
+        <div class="department">
+            <h3>Ban Truyền thông</h3>
+            <p>
+                Phụ trách chụp ảnh, quay video và đưa tin
+                cho các hoạt động của nhà trường.
+            </p>
+        </div>
+
+        <div class="department">
+            <h3>Ban Content</h3>
+            <p>
+                Lên ý tưởng, viết bài, xây dựng nội dung
+                cho các nền tảng truyền thông của CLB.
+            </p>
+        </div>
+
+        <div class="department">
+            <h3>Ban Design</h3>
+            <p>
+                Thiết kế poster, banner và các ấn phẩm
+                truyền thông của câu lạc bộ.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="highlight">
+    <h2>Điểm nổi bật</h2>
+    <ul>
+        <li>Gắn liền với nhiều hoạt động của nhà trường</li>
+        <li>Môi trường năng động, sáng tạo</li>
+        <li>Nhiều thế hệ thành viên tài năng</li>
+    </ul>
+</section>
+
+</body>
+</html>
